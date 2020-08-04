@@ -1,0 +1,42 @@
+(define last-element
+  (lambda (lst)
+    (if (empty? (cdr lst))
+        (car lst)
+        (last-element (cdr lst)))))
+
+(define power
+  (lambda (n1 n2)
+    (if (= n2 0)
+        1
+        (* n1 (power n1 (- n2 1)) ))))
+
+(define sum-lst-power
+  (lambda (lst n)
+    (if (empty? lst)
+        0
+        (+ (power (car lst) n) (sum-lst-power (cdr lst) n)))))
+      
+(define num-from-digits
+  (lambda (lst)
+    (calc-num-from-digits lst 0)))
+
+(define calc-num-from-digits
+  (lambda (lst acc)
+    (if (empty? lst)
+        acc
+        (calc-num-from-digits (cdr lst) (+ (* acc 10) (car lst))))))
+
+(define is-narcissistic
+  (lambda (lst)
+    (= (sum-lst-power lst (lst-size lst))
+       (num-from-digits lst))))
+
+(define lst-size
+  (lambda (lst)
+    (if (empty? lst)
+        0
+        (+ (lst-size (cdr lst)) 1))))
+
+(define empty?
+  (lambda (lst)
+    (eq? lst '())))
