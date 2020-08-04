@@ -1,2 +1,19 @@
 # Principles-of-Programming-Languages
- 
+
+The course provides an understanding of the principles of programming languages, program construction and software design. In the course, we will review principles through an analysis of aspects of JavaScript and TypeScript, Scheme and Prolog.
+
+## The major things we did:
+1. Intro to Typescrpt as a functional paradigm language
+2. Interpreter for a sub-language of Scheme
+3. Type checker and type inference
+4. control structures in JS/Scheme
+5. logic programming
+
+## The Assignments
+
+#### [Assignment 1: Basic functional coding in Typescript](https://www.cs.bgu.ac.il/~ppl202/wiki.files/assignments/assignment1/PPL_2020_Assignment_1.pdf)
+#### [Assignment 2: Expanding the AST, syntactic trasnformations](https://www.cs.bgu.ac.il/~ppl202/wiki.files/assignments/Assignment_2.pdf)
+#### [Assignment 3: Creating a new AST, enviroment-based evaluation](https://www.cs.bgu.ac.il/~ppl202/wiki.files/hw3-202%20(5)_.pdf)
+#### [Assignment 4: Expanding the type checker, control structures in JS](https://www.cs.bgu.ac.il/~ppl202/wiki.files/assignments/assignment4.pdf)
+#### [Assignment 5: Lazy lists, CPS and intro to prolog](https://www.cs.bgu.ac.il/~ppl202/wiki.files/assignments/Assignment_5.pdf)
+
