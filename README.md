@@ -6,8 +6,8 @@ The course provides an understanding of the principles of programming languages,
 1. Intro to Typescrpt as a functional paradigm language
 2. Interpreter for a sub-language of Scheme
 3. Type checker and type inference
-4. control structures in JS/Scheme
-5. logic programming
+4. Control structures in JS/Scheme
+5. Logic programming
 
 ## The Assignments
 
